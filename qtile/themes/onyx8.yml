@@ -1,0 +1,127 @@
+# ============================================================================
+# Onyx 8 - The Spider Theme
+# ============================================================================
+# Inspired by the Phantom Troupe - dark, menacing, elegant
+# ============================================================================
+
+colors:
+  # Base colors
+  bg_normal: "#0a0a0a"
+  bg_alt: "#121212"
+  bg_highlight: "#1a1a1a"
+  bg_selected: "#2a2a2a"
+
+  fg_normal: "#c9c9c9"
+  fg_dim: "#666666"
+  fg_bright: "#ffffff"
+  fg_muted: "#444444"
+
+  # Accent - Spider blood
+  red: "#8b0000"
+  red_bright: "#cc0000"
+  red_dim: "#4a0000"
+
+  # Accent - Phantom shadow
+  purple: "#4a0080"
+  purple_bright: "#6a00b0"
+  purple_dim: "#2d004d"
+
+  # Secondary accents
+  blue: "#1a1a2e"
+  blue_bright: "#2a2a4e"
+  cyan: "#0d7377"
+  cyan_bright: "#0fa5aa"
+  green: "#1a472a"
+  green_bright: "#2a6a3a"
+  yellow: "#8b8000"
+  yellow_bright: "#b0a000"
+  orange: "#8b4000"
+  orange_bright: "#b05000"
+
+  # UI States
+  border_normal: "#1a1a1a"
+  border_focus: "#8b0000"
+  border_urgent: "#cc0000"
+  border_marked: "#4a0080"
+
+  # Bar
+  bar_bg: "#0a0a0a"
+  bar_fg: "#c9c9c9"
+
+  # Groups/Workspaces
+  group_active: "#c9c9c9"
+  group_inactive: "#444444"
+  group_focus: "#8b0000"
+  group_urgent: "#cc0000"
+
+  # Widgets
+  widget_bg: "#121212"
+  widget_fg: "#c9c9c9"
+  widget_border: "#1a1a1a"
+
+# Lock screen (i3lock-color)
+lock:
+  blank: "#00000000"
+  clear: "#0a0a0aee"
+  default: "#8b0000cc"
+  text: "#c9c9c9ff"
+  wrong: "#cc0000ff"
+  verifying: "#4a0080ff"
+  key: "#8b0000ff"
+  backspace: "#cc0000ff"
+  ring: "#1a1a1aff"
+  ring_wrong: "#cc0000ff"
+  ring_ver: "#4a0080ff"
+
+# Rofi launcher
+rofi:
+  bg: "#0a0a0a"
+  bg_alt: "#121212"
+  fg: "#c9c9c9"
+  fg_alt: "#666666"
+  border: "#8b0000"
+  selected_bg: "#1a1a1a"
+  selected_fg: "#ffffff"
+  urgent_bg: "#4a0000"
+  urgent_fg: "#cc0000"
+
+# Dunst notifications
+dunst:
+  bg_low: "#121212"
+  bg_normal: "#0a0a0a"
+  bg_critical: "#4a0000"
+  fg_low: "#666666"
+  fg_normal: "#c9c9c9"
+  fg_critical: "#cc0000"
+  border: "#8b0000"
+  border_critical: "#cc0000"
+
+# Terminal (Alacritty)
+terminal:
+  primary:
+    background: "#0a0a0a"
+    foreground: "#c9c9c9"
+  cursor:
+    text: "#0a0a0a"
+    cursor: "#8b0000"
+  selection:
+    text: "#c9c9c9"
+    background: "#2a2a2a"
+  normal:
+    black: "#0a0a0a"
+    red: "#8b0000"
+    green: "#1a472a"
+    yellow: "#8b8000"
+    blue: "#1a1a2e"
+    magenta: "#4a0080"
+    cyan: "#0d7377"
+    white: "#c9c9c9"
+  bright:
+    black: "#444444"
+    red: "#cc0000"
+    green: "#2a6a3a"
+    yellow: "#b0a000"
+    blue: "#2a2a4e"
+    magenta: "#6a00b0"
+    cyan: "#0fa5aa"
+    white: "#ffffff"

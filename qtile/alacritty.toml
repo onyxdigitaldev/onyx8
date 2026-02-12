@@ -1,0 +1,55 @@
+# ============================================================================
+# Onyx 8 - Alacritty Configuration
+# ============================================================================
+
+[window]
+padding = { x = 12, y = 12 }
+decorations = "none"
+opacity = 0.95
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+size = 11.0
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 500
+
+[colors.primary]
+background = "#0a0a0a"
+foreground = "#c9c9c9"
+
+[colors.cursor]
+text = "#0a0a0a"
+cursor = "#8b0000"
+
+[colors.vi_mode_cursor]
+text = "#0a0a0a"
+cursor = "#4a0080"
+
+[colors.selection]
+text = "#c9c9c9"
+background = "#2a2a2a"
+
+[colors.normal]
+black = "#0a0a0a"
+red = "#8b0000"
+green = "#1a472a"
+yellow = "#8b8000"
+blue = "#1a1a2e"
+magenta = "#4a0080"
+cyan = "#0d7377"
+white = "#c9c9c9"
+
+[colors.bright]
+black = "#444444"
+red = "#cc0000"
+green = "#2a6a3a"
+yellow = "#b0a000"
+blue = "#2a2a4e"
+magenta = "#6a00b0"
+cyan = "#0fa5aa"
+white = "#ffffff"
